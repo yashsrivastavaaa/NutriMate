@@ -5,6 +5,6 @@ export default defineConfig({
     schema: './config/recipeHomeSchema.ts',
     dialect: 'postgresql',
     dbCredentials: {
-        url: 'postgresql://neondb_owner:npg_YBsS3Qntwi9H@ep-falling-wind-a4eeczgh-pooler.us-east-1.aws.neon.tech/NutriMate?sslmode=require',
+        url: process.env.EXPO_PUBLIC_DB_API!,
     },
 });
