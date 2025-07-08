@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Index() {
     return (
-        <Redirect href='/signin' />
-        // <Redirect href='/platform/home' />
+        // <Redirect href='/signin' />
+        <Redirect href='/platform/home' />
     )
 }
